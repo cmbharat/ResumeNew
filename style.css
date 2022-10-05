@@ -2,6 +2,9 @@ body {
     margin: 0px;
 }
 
+:root {
+    --section-color-blue: #2857a4;
+}
 
 #body-header {
     height: 65vh;
@@ -185,6 +188,8 @@ section:nth-child(2n+1) {
     height: 78%;
     width: 0;
     border: 3px dashed lightskyblue;
+    /* transform: rotate3d();/ */
+
 }
 
 .timeline-traveller {
@@ -192,6 +197,11 @@ section:nth-child(2n+1) {
     top: 25%;
     transform: rotate(90deg);
     z-index: 1;
+}
+
+.timeline-traveller i{
+    margin-top: -20px;
+    color: var(--section-color-blue);
 }
 
 .timeline-box:nth-child(2n+1)::after {
@@ -205,6 +215,8 @@ section:nth-child(2n+1) {
     background-color: red;
     z-index: 1;
 }
+
+
 
 .timeline-box:nth-child(2n)::after {
     content: '';
