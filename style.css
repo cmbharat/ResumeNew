@@ -152,14 +152,69 @@ section:nth-child(2n+1) {
 .skills-display {
     width: 70%;
     display: flex;
+    /* flex-direction: row; */
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
+.skill-progress{
+    width: 7rem;
+    height: 1.4rem;    
+    background-color: lightgray;
+    border-radius: 0.8rem;
+    border: 2px solid black;
+}
+.skill-progress>div {
+    border-radius: 0.8rem 0 0 0.8rem;
+}
+
+.mb-blue {
+    background-color: blue;
+}
+.mb-red {
+    background-color: red;
+}
+.mb-yellow {
+    background-color: yellow;
+}.mb-green {
+    background-color: green;
+}
+.mb-aqua {
+    background-color: aqua;
+}
 .mb75px {
     margin-bottom: 75px;
 }
+.eighty-five-percent{
+    width: 85%;
+    height: inherit;
+    
+}
+.fifty-percent {
+    width: 50%;
+    height: inherit;
 
+}
+.forty-percent {
+    width: 40%;
+    height: inherit;
+
+}
+.sixty-percent {
+    width: 60%;
+    height: inherit;
+
+}
+.seventy-percent {
+    width: 70%;
+    height: inherit;
+
+}
+.skill-name span{
+    color: white;
+    font-size: 1rem;
+    padding: 10%;
+}
 /* timeline box */
 
 .timeline {
